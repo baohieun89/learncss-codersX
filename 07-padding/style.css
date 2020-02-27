@@ -1,0 +1,73 @@
+.list-item{
+	color: blue;
+	font-weight: bold;
+	padding-left: 18px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	padding-top: 18px;
+	/*padding: top right bottom left >> khi truyền vào 4 tham số*/
+	/*       : top left-right bottom >> khi truyền vào 3 tham số*/
+	/*       : top-bottom left-right >> khi truyền vào 2 tham số*/
+	/*       : all >> khi truyền vào 1 tham số*/
+	/*------------*/
+	margin-bottom: 8px;
+
+	/*------------*/
+	/*
+	 Border Syntax
+	   border-width: 1px;
+	   border-style: solid | dotted | dashed |...
+	   border-color: red
+	 Shorthand:
+	   border: 1px solid red;
+	 Note: 
+	   border-width: top right bottom left
+	   border-width: top left-right bottom
+	   border-width: top-bottom left-right
+	   border-top-width: 1px
+	   border-right-width:1px
+	   ...
+	   border-radius:;
+	*/
+	border-width: 1px;
+	border-style: solid;
+	border-color: #888;
+	border-bottom-style: dashed;
+	border-radius: 4px;
+
+	/*
+	 backgound-color: color;
+	 backgound-color: transparent;
+	 backgound-color:gradient;
+	*/
+	background-color: #DDD;
+}
+body{
+	background-color: #EEE;
+}
+.list-item-transparent{
+	background-color: transparent;
+}
+.list-item-gradient{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 66%);
+	color: #FFF;
+}
+.list-item-pattern{
+	background-image: url(./pattern.jpg);
+	background-size: 20%;
+	height: 50px;
+	color: #881e1e;
+}
+.list-item-image{
+	background-image: url(./image.jpg);
+	height: 50px;
+	background-size: cover;
+	background-position: 0 -20px;
+}
+.list-item-parallax{
+	background-image: url(./image.jpg);
+	height: 50px;
+	background-size: cover;
+	background-attachment:fixed; 
+}

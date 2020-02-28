@@ -1,0 +1,14 @@
+/*inline vs. block
+Khi các HTML element được load, sẽ được hiển thị từ trái sang phải từ trên xuống dưới.
+inline elements là các elements có chiều rộng bằng chiều rộng content của nó, và có thể nằm chung 1 hàng với các inline elements khác
+
+ block thì ngược lại, block chiếm chọn 1 hàng, đẩy element tiếp theo xuống dưới
+ có thể chuyển được từ inline sang block
+
+*/
+.block{
+	display: block;
+}
+.inline{
+	display: inline;
+}

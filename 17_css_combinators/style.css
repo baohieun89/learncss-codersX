@@ -1,0 +1,27 @@
+/*tìm trong list-2 những thằng item-2*/
+.list-1 .item-1{
+	color: red;
+}
+/*tìm item trong list-1*/
+.list-1 .item{
+	border: 1px solid #333;
+}
+
+/*child selector*/
+/*tìm trong list 1 những thằng con ( không phải cháu, child of child)*/
+
+.list-2 > .item{
+	border: 2px solid #666;
+}
+
+/*tìm thằng anh em tiếp theo trong case html, adjacent sibling selector*/
+/*tìm trong list-1 thằng item-2 và select anh em tiếp theo của item-2*/
+.list-1 .item-2 + .item{
+	border-color: red;
+}
+
+/*general sibling selector*/
+/*select toàn bộ những thằng anh em kể từ thằng làm mốc*/
+.list-2 .item-1 ~ .item{
+	border-color: green;
+}

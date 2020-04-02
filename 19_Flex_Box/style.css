@@ -12,8 +12,15 @@
 		align-items
 
 		thuộc tính áp dụng cho con
-		flex-basic: <length>;
+		- flex-basis <length>;
+		- flex-grow: number;  chỉ tác dụng khi container còn thừa chỗ trống, nó sẽ phân bổ chỗ trống còn lại cho thằng con
+		- flex-shrink: 1* | number;  ngược lại với grow, nếu tất cả thằng con có tổng chiều rộng vượt quá container, nó sẽ cắt các thằng con mỗi thằng 1 chút
+		- order: 0* | number;
+
 	*/
+body{
+	margin: 0;
+}
 .container{
 	display: flex;
 	background-color: #DDD;
@@ -30,13 +37,31 @@
 
 .child-1{
 	background-color: red;
-	flex-basis: 150px;
+	flex-basis: 100px;
+	flex-grow: 1;
 }
 .child-2{
 	background-color: green;
-	flex-basis: 150px;
+	flex-basis: 100px;
+	flex-grow: 3;
 }
 .child-3{
 	background-color: blue;
+	flex-basis: 100px;
+	flex-grow: 2;
+}
+.child-4{
+	background-color: red;
+	flex-basis: 500px;
+	
+}
+.child-5{
+	background-color: green;
 	flex-basis: 200px;
+	
+}
+.child-6{
+	background-color: blue;
+	flex-basis: 200px;
+	
 }

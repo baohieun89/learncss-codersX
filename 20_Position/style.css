@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    color: #FFF;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+.blue{
+    background-color: blue;
+}
+.red1{
+    background-color: red;
+}
+.green1{
+    background-color: green;
+
+}
+.blue1{
+    background-color: blue;
+}
+
+.fixed{
+    position: fixed;
+    right: 50px;
+}

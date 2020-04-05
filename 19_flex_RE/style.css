@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    background-color: #DDD;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+.child-1{
+    background-color: red;
+}
+
+.child-2{
+    background-color: green;
+}
+
+.child-3{
+    background-color: blue;
+}

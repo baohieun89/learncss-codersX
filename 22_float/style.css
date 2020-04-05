@@ -1,0 +1,19 @@
+.header{
+  height: 100px;
+}
+
+.sidebar{
+  float: left;
+  width: 20%;
+}
+.wrapper:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.footer{
+  height: 100px;
+}
+.bg-img{
+  background-image: url("https://via.placeholder.com/65x65");
+}

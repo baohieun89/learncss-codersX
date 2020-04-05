@@ -1,0 +1,10 @@
+.test{
+    margin: 100px 100px;
+    width: 500px;
+    height: 500px;
+    background-color: #FFF;
+    box-shadow: 0 0 50px 0 #DDD;
+    border: 1px solid red;
+    border-radius: 40px;
+
+}
